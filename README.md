@@ -1,5 +1,5 @@
 # ScreenShoot Aplikasi Get List Repository from Github API
-![preview](public/screenshoot.PNG)
+![preview](public/screenshoot_aplikasi.PNG)
 
 
 # Getting Started with Create React App
