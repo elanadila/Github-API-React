@@ -6,7 +6,7 @@ const Results = (props) => {
 
     const ListRepos =
         repos.length !== 0 ? (
-            repos.data.map((item) => <li>{item.name}</li>)
+            repos.data.map((item) => <li key={item.id}><a href={item.html_url}>{item.name}</a> </li>)
         ) : (
             <li>No Repos Found</li>
         );
